@@ -6,7 +6,7 @@ The value of n will be at most 1000. Read the partially completed code in the ed
 You just need to write the
 MyCalculator class only. Your class shouldn't be public. */
 
-import java.util.*;
+import java.util.Scanner;
 class AdvancedArithmetic{
 	int n ;
 	void divisorSum() {   // creating method
