@@ -1,4 +1,3 @@
-// Q.3 Can you create object of a class from inside the scope of another class constructor. Yes
 
 class A_perent {
     public void a() {
