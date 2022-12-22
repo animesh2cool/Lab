@@ -4,9 +4,12 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+//@Entity -  this annotation specifies that the class is an entity
 @Entity
+//@Table - this annotation specifies the table in the database where entity is mapped
 @Table(name = "books")
 public class BookEntity {
+    //@Id - this annotation specifies the primary key of the entity
     @Id
     private int bookId;
     private String bookTitle;
